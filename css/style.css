@@ -1,0 +1,33 @@
+/** @format */
+:root {
+  --bg-1: #171717;
+  --txt-1: #f2f2f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: DM Sans;
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.flex {
+  display: flex;
+}
+.radius {
+  border-radius: 0.6px;
+}
+.w-800 {
+  max-width: 800px;
+}
+header {
+  background-color: var(--bg-1);
+  padding: 1.1rem;
+  color: var(--txt-1);
+}
