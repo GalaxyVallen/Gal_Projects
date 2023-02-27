@@ -1,0 +1,361 @@
+  <!-- @format -->
+
+  <html>
+    <head>
+      <title>Dashboard Modern</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+
+    <body>
+      <header>
+        <h1 style="letter-spacing: 2px">///</h1>
+        <nav>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">how it works</a></li>
+            <li><a href="#">exit</a></li>
+          </ul>
+        </nav>
+        <i class="fa fa-bars icon"></i>
+      </header>
+      <main>
+        <div class="sidebar">
+          <div class="menu_head flex">
+            <h2>Menu</h2>
+            <i class="fa fa-chevron-left icon"></i>
+          </div>
+          <ul>
+            <li class="active"><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#orders">Orders</a></li>
+            <li><a href="#customers">Customers</a></li>
+            <li><a href="#reports">Reports</a></li>
+            <li><a href="#new-tab">New Tab</a></li>
+          </ul>
+        </div>
+        <div class="content">        
+            <section class="tab-panel active" id="dashboard">
+              <h2>Dashboard</h2>
+              <div class="cards flex">
+                <div class="card">
+                  <h3>Total Orders</h3>
+                  <p>1,200</p>
+                </div>
+                <div class="card">
+                  <h3>Total Revenue</h3>
+                  <p>$50,000</p>
+                </div>
+                <div class="card">
+                  <h3>Total Customers</h3>
+                  <p>800</p>
+                </div>
+                <div class="card">
+                  <h3>Total Products</h3>
+                  <p>300</p>
+                </div>
+                <div class="card">
+                  <h3>Total Massage</h3>
+                  <p>3000</p>
+                </div>
+                <div class="card">
+                  <h3>Total Call</h3>
+                  <p>1000</p>
+                </div>
+              </div>
+              <div class="charts">
+                <h3>Revenue Chart</h3>
+                <div class="charts_img"><img src="" alt="Revenue Chart" /></div>
+              </div>
+              <div class="table">
+                <h3>Recent Orders</h3>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Order ID</th>
+                      <th>Customer Name</th>
+                      <th>Order Date</th>
+                      <th>Total Price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>123</td>
+                      <td>John Doe</td>
+                      <td>2023-02-15</td>
+                      <td>$150</td>
+                    </tr>
+                    <tr>
+                      <td>124</td>
+                      <td>Jane Smith</td>
+                      <td>2023-02-14</td>
+                      <td>$250</td>
+                    </tr>
+                    <tr>
+                      <td>125</td>
+                      <td>Mike Johnson</td>
+                      <td>2023-02-13</td>
+                      <td>$100</td>
+                    </tr>
+                    <tr>
+                      <td>126</td>
+                      <td>Sara</td>
+                      <td>2023-02-12</td>
+                      <td>$300</td>
+                    </tr>
+                    <tr>
+                      <td>127</td>
+                      <td>Lee lee</td>
+                      <td>2023-02-22</td>
+                      <td>$350</td>
+                    </tr>
+                    <tr>
+                      <td>128</td>
+                      <td>Lee</td>
+                      <td>2023-02-22</td>
+                      <td>$350</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+            <section class="tab-panel" id="products"><h2>Our Products</h2>
+              <div class="product_section grid">
+                <div class="product radius">
+                  <img src="img/product.jpg" alt="Product 1">
+                  <div class="product_info">
+                    <h3>Product 1</h3>
+                    <p>Price: $10</p>
+                    <p>A high-quality product that is perfect for everyday use.</p>
+                  </div>
+                  <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product radius">
+                  <img src="img/product.jpg" alt="Product 2">
+                  <div class="product_info">
+                    <h3>Product 2</h3>
+                    <p>Price: $15</p>
+                    <p>This product is great for outdoor activities and adventures.</p>
+                  </div>
+                  <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product radius">
+                  <img src="img/product.jpg" alt="Product 3">
+                  <div class="product_info">
+                    <h3>Product 3</h3>
+                    <p>Price: $20</p>
+                    <p>Our best-selling product is loved by customers all over the world.</p>
+                  </div>
+                  <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product radius">
+                  <img src="img/product.jpg" alt="Product 4">
+                  <div class="product_info">
+                    <h3>Product 4</h3>
+                    <p>Price: $25</p>
+                    <p>This product is designed to meet the needs of professional athletes.</p>
+                  </div>
+                  <button class="btn">Add to Cart</button>
+                </div>
+              </div>
+            </section>
+            <section class="tab-panel" id="orders"> <h2>Recent Orders</h2>
+              <div class="order_section flex">
+                <div class="order radius">
+                  <div class="order_info">
+                    <h3>Order ID: 1234567890</h3>
+                    <p>Date: 2023-02-10</p>
+                    <p>Customer: John Doe</p>
+                  </div>
+                  <ul class="order_items">
+                    <li>Produk 1 - $10</li>
+                    <li>Produk 2 - $15</li>
+                  </ul>
+                  <p>Total: $25</p>
+                  <button class="btn btn_order">View Details</button>
+                </div>
+                <div class="order radius">
+                  <div class="order_info">
+                    <h3>Order ID: 0987654321</h3>
+                    <p>Date: 2023-02-09</p>
+                    <p>Customer: Jane Doe</p>
+                  </div>
+                  <ul class="order_items">
+                    <li>Produk 3 - $20</li>
+                  </ul>
+                  <p>Total: $20</p>
+                  <button class="btn btn_order">View Details</button>
+                            </div>
+                <div class="order radius">
+                  <div class="order_info">
+                    <h3>Order ID: 1357908642</h3>
+                    <p>Date: 2023-02-08</p>
+                    <p>Customer: Bob Smith</p>
+                  </div>
+                  <ul class="order_items">
+                    <li>Produk 4 - $25</li>
+                    <li>Produk 2 - $15</li>
+                    <li>Produk 1 - $10</li>
+                  </ul>
+                  <p>Total: $50</p>
+                  <button class="btn btn_order">View Details</button>
+                </div>
+                <div class="order radius">
+                  <div class="order_info">
+                    <h3>Order ID: 2468013579</h3>
+                    <p>Date: 2023-02-07</p>
+                    <p>Customer: Mary Johnson</p>
+                  </div>
+                  <ul class="order_items">
+                    <li>Produk 1 - $10</li>
+                    <li>Produk 2 - $15</li>
+                    <li>Produk 3 - $20</li>
+                    <li>Produk 4 - $25</li>
+                    <li>Produk 5 - $29</li>
+                  </ul>
+                  <p>Total: $70</p>
+                  <button class="btn btn_order">View Details</button>
+                </div>
+                <div class="order radius">
+                  <div class="order_info">
+                    <h3>Order ID: 3692581470</h3>
+                    <p>Date: 2023-02-06</p>
+                    <p>Customer: David Lee</p>
+                  </div>
+                  <ul class="order_items">
+                    <li>Produk 2 - $15</li>
+                    <li>Produk 3 - $20</li>
+                  </ul>
+                  <p>Total: $35</p>
+                  <button class="btn btn_order">View Details</button>
+                </div>
+              </div>
+            </section>
+            <section class="tab-panel" id="customers"><h2>Our Customers</h2>
+              <div class="customer_section flex">
+                <div class="customer radius">
+                  <img src="img/avatar.jpg" alt="Customer 1">
+                  <div class="customer-info">
+                    <h3>Customer 1</h3>
+                    <p>Email: customer1@example.com</p>
+                    <p>Address: Jl. Customer 1</p>
+                  </div>
+                </div>
+                <div class="customer radius">
+                  <img src="img/avatarA.jpg" alt="Customer 2">
+                  <div class="customer-info">
+                    <h3>Customer 2</h3>
+                    <p>Email: customer2@example.com</p>
+                    <p>Address: Jl. Customer 2</p>
+                  </div>
+                </div>
+                <div class="customer radius">
+                  <img src="img/avatarB.jpg" alt="Customer 3">
+                  <div class="customer-info">
+                    <h3>Customer 3</h3>
+                    <p>Email: customer3@example.com</p>
+                    <p>Address: Jl. Customer 3</p>
+                  </div>
+                </div>
+                <div class="customer">
+                  <img src="img/avatarC.png" alt="Customer 4">
+                  <div class="customer-info">
+                    <h3>Customer 4</h3>
+                    <p>Email: customer4@example.com</p>
+                    <p>Address: Jl. Customer 4</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="tab-panel" id="reports"><h2>Our Reports</h2>
+              <div class="report_section flex">
+                <div class="report radius">
+                  <div class="report-info">
+                    <h3>Report 1</h3>
+                    <p>Date: January 1, 2023</p>
+                  </div>
+                  <div class="report-description">
+                    <p>This is our monthly report on product sales. In this report, we record the number of products sold during the previous month and the total revenue earned from those sales.</p>
+                  </div>
+                  
+                    <button class="btn">View Report</button>
+                  
+                </div>
+                <div class="report radius">
+                  <div class="report-info">
+                    <h3>Report 2</h3>
+                    <p>Date: January 2, 2023</p>
+                  </div>
+                  <div class="report-description">
+                    <p>This is our monthly report on our expenses. In this report, we record every expense that occurred during the previous month and the amount of money spent on each expense.</p>
+                  </div>
+                  
+                    <button class="btn">View Report</button>
+                  
+                </div>
+                <div class="report radius">
+                  <div class="report-info">
+                    <h3>Report 3</h3>
+                    <p>Date: January 3, 2023</p>
+                  </div>
+                  <div class="report-description">
+                    <p>This is our monthly report on the number of customers we have. In this report, we record the number of new customers who joined during the previous month and the number of customers who are no longer active.</p>
+                  </div>
+                  
+                    <button class="btn">View Report</button>
+                  
+                </div>
+                <div class="report radius">
+                  <div class="report-info">
+                    <h3>Report 4</h3>
+                    <p>Date: January 4, 2023</p>
+                  </div>
+                  <div class="report-description">
+                    <p>This is our monthly report on the performance of our website. In this report, we record the number of visitors who came to the website during the previous month and how many of them made a purchase.</p>
+                  </div>
+                  
+                    <button class="btn">View Report</button>
+                  
+                </div>
+              </div>
+            </section>
+            <section class="tab-panel  " id="new-tab"> 
+              <div class="tab-panel_h">
+                <h2>New Tab</h2><i class="fa fa-plus"></i>
+              </div>
+              <p>Here, you can see some information about your dashboard, including:</p>
+              <div class="features">
+                <div class="feature radius">
+                  <h3>Sales Data Summary</h3>
+                  <p>You can view a summary of your sales data for today and this month on the main dashboard.</p>
+                  <!-- <i class="fa fa-plus"></i> -->
+                </div>
+                <div class="feature radius">
+                  <h3>Best Selling Products</h3>
+                  <p>You can view a list of your best selling products on the "Products" dashboard.</p>
+                  <!-- <i class="fa fa-plus"></i> -->
+                </div>
+                <div class="feature radius">
+                  <h3>Top Customers</h3>
+                  <p>You can view a list of your top customers on the "Customers" dashboard.</p>
+                  <!-- <i class="fa fa-plus"></i> -->
+                </div>
+                <div class="feature radius">
+                  <h3>Financial Reports</h3>
+                  <p>You can view monthly financial reports on the "Reports" dashboard.</p>
+                  <!-- <i class="fa fa-plus"></i> -->
+                </div>
+                <div class="feature radius">
+                  <h3>Add New Products</h3>
+                  <p>You can add new products to your product list by clicking the "Add New Product" button on the "Products" dashboard.</p>
+                  <!-- <i class="fa fa-plus"></i> -->
+                </div>
+              </div>
+            </section>
+          </div>
+          </div>
+        </div>
+      </main>
+      <script src="js/index.js"></script>
+    </body>
+  </html>
